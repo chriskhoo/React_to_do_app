@@ -1,0 +1,88 @@
+.appear-enter {
+  transition-duration: 0.7s;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+  opacity: 0;
+}
+
+.appear-enter.appear-enter-active{
+  opacity: 1;
+}
+
+.appear-leave {
+  opacity: 0;
+}
+
+h1 {
+  color: salmon;
+  text-align: center;
+}
+
+.boxShadow {
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.delete{
+  color: #801313;
+  font-size: 1.5em;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.greenCircle{
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 100%;
+  border: 2px solid #0c8523;
+  background-color: white;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fullGreenCircle{
+  background-color: #0c8523;
+}
+
+.completedTask {
+    text-decoration: line-through;
+}
+
+.footerBar{
+  display: flex;
+  justify-content: space-around;
+  color: rgb(154, 152, 152);
+}
+
+.footerViews{
+  display: flex;
+  justify-content: center;
+
+}
+
+.views{
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.views:hover{
+  border: 1px solid #f6bab4;
+  color: #303030;
+}
+
+.selectedView{
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+  cursor: pointer;
+  cursor: hand;
+  border: 2px solid salmon;
+  color: #303030;
+}
+
+.clearCompleted{
+  cursor: pointer;
+  cursor: hand;
+}
